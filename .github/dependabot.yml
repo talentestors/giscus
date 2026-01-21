@@ -10,22 +10,22 @@ updates:
         patterns:
           - '*'
 
-  - package-ecosystem: npm
-    directory: '/'
-    schedule:
-      interval: weekly
-      day: saturday
-    open-pull-requests-limit: 99
-    groups:
-      dependencies:
-        patterns:
-          - '*'
-        exclude-patterns:
-          - 'next'
-          - '@next/bundle-analyzer'
-          - 'eslint-config-next'
-      next:
-        patterns:
-          - 'next'
-          - '@next/bundle-analyzer'
-          - 'eslint-config-next'
+  # - package-ecosystem: npm
+  #   directory: '/'
+  #   schedule:
+  #     interval: weekly
+  #     day: saturday
+  #   open-pull-requests-limit: 99
+  #   groups:
+  #     dependencies:
+  #       patterns:
+  #         - '*'
+  #       exclude-patterns:
+  #         - 'next'
+  #         - '@next/bundle-analyzer'
+  #         - 'eslint-config-next'
+  #     next:
+  #       patterns:
+  #         - 'next'
+  #         - '@next/bundle-analyzer'
+  #         - 'eslint-config-next'
