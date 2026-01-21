@@ -1,4 +1,4 @@
-version: "1"
+version: '1'
 rules: # Array of rules
   - base: upstream # Required. Target branch
     upstream: giscus:main # Required. Must be in the same fork network.
@@ -9,5 +9,5 @@ rules: # Array of rules
     mergeMethod: merge
     conflictReviewers: # Optional, on merge conflict assign a reviewer
       - talentestors
-label: ":robot: auto-sync"
-conflictLabel: "merge-conflict" # Optional, on merge conflict assign a custom label, Default: merge-conflict
+label: ':robot: auto-sync'
+conflictLabel: 'merge-conflict' # Optional, on merge conflict assign a custom label, Default: merge-conflict
