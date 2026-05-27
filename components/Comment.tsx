@@ -87,7 +87,7 @@ export default function Comment({
               >
                 <img
                   className="mr-2 rounded-full"
-                  src={comment.author.avatarUrl}
+                  src={`https://wsrv.nl/?url=${comment.author.avatarUrl}&output=webp&q=20`}
                   width="30"
                   height="30"
                   alt={`@${comment.author.login}`}

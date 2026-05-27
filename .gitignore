@@ -44,3 +44,14 @@ public/themes/
 
 # CSS variables purging script (for development)
 styles/themes/reference.css
+
+.vscode/*
+# !.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix
